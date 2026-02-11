@@ -578,6 +578,7 @@
 				"heavy"	"1"
 				"pyro" "1"
 				"engineer"	"1"
+				"spy" "1"
 			}
 			"static_attrs"
 			{

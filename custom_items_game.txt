@@ -676,5 +676,57 @@
 			}
 			"xifier_class_remap"	""
 		}
+		"933"
+		{
+			"name"	"The Ap-Sap"
+			"first_sale_date"	"2013/04/23"
+			"prefab"	"valve"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"item_class"	"tf_weapon_sapper"
+			"prefab"	"weapon_sapper"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Spy_Sapper"
+			"item_name"	"#TF_Weapon_Ap_Sap"
+			"item_description"	"#TF_Weapon_Ap_Sap_desc"
+			"item_slot"	"building"
+			"item_quality"	"unique"
+			"item_logname"	"psapper"
+			"item_iconname"	"psapper"
+			"image_inventory"	"backpack/weapons/c_models/c_p2rec/c_p2rec"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"inspect_panel_dist" 			"25"
+			"anim_slot"	"building"
+			"attach_to_hands"	"1"
+			"propername"	"1"
+			"model_player"	"models/weapons/c_models/c_p2rec/c_p2rec.mdl"
+			"model_world"	"models/weapons/c_models/c_p2rec/c_p2rec.mdl"
+			"used_by_classes"
+			{
+				"spy"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"		"10 0 -6"				
+			}
+			"attributes"
+			{
+				"sapper voice pak"
+				{
+					"attribute_class"	"sapper_voice_pak"
+					"value" "1.0"
+				}
+				"sapper voice pak idle wait"
+				{
+					"attribute_class"	"sapper_voice_pak_idle_wait"
+					"value" "3.0"
+				}
+			}
+		}
 	}
 }

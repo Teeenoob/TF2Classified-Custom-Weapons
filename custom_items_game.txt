@@ -601,5 +601,80 @@
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
+		"1100"
+		{
+			"name"		"The Bread Bite"
+			"prefab"	"valve weapon_gru"
+			"first_sale_date"		"2014/06/18"
+			"propername"	"1"
+			"craft_class"	""
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+			}
+			"item_class"	"tf_weapon_fists"
+			"item_name"			"#TF_Weapon_BreadBite"
+			"item_description"	"#TF_Weapon_BreadBite_Desc"
+			"item_slot"	"melee"
+			"item_quality"	"unique"
+			"item_logname"	"bread_bite"
+			"item_iconname"	"bread_bite"
+			"min_ilevel"	"1"
+			"max_ilevel"	"100"
+			"image_inventory"	"backpack/weapons/c_models/c_breadmonster_gloves/c_breadmonster_gloves"
+			"model_player"		"models/weapons/c_models/c_breadmonster_gloves/c_breadmonster_gloves.mdl"
+			"attach_to_hands"	"1"
+			"used_by_classes"
+			{
+				"heavy"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"		"15 0 -12"
+			}
+			"hide_bodygroups_deployed_only"	"1"
+			"attributes"
+			{
+				"breadgloves properties"
+				{
+					"attribute_class"	"breadgloves_properties"
+					"value"				"1"
+				}
+				"allowed in medieval mode"
+				{
+					"attribute_class"	"allowed_in_medieval_mode"
+					"value"	"1"
+				}
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hands"			"1"
+				}
+				"animation_replacement"
+				{
+					"ACT_VM_HITLEFT"		"ACT_BREADGLOVES_VM_HITLEFT"
+					"ACT_VM_HITRIGHT"		"ACT_BREADGLOVES_VM_HITRIGHT"
+					"ACT_VM_SWINGHARD"		"ACT_BREADGLOVES_VM_SWINGHARD"
+					"ACT_VM_IDLE"			"ACT_BREADGLOVES_VM_IDLE"
+					"ACT_VM_DRAW"			"ACT_BREADGLOVES_VM_DRAW"
+					"ACT_MELEE_VM_INSPECT_START"	"ACT_MELEE_ALT2_VM_INSPECT_START"
+					"ACT_MELEE_VM_INSPECT_IDLE"		"ACT_MELEE_ALT2_VM_INSPECT_IDLE"
+					"ACT_MELEE_VM_INSPECT_END"		"ACT_MELEE_ALT2_VM_INSPECT_END"
+				}
+				"sound_deploy"	"Weapon_bm_gloves.draw"
+			}
+			"static_attrs"
+			{
+				"limited quantity item"		"1"
+			}
+			"xifier_class_remap"	""
+		}
 	}
 }

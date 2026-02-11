@@ -579,55 +579,6 @@
 				"pyro" "1"
 				"engineer"	"1"
 			}
-			"attributes"
-			{
-				"taunt is press and hold"
-				{
-					"attribute_class"	"enable_misc2_holdtaunt"
-					"value"			"1"
-				}
-				"taunt force move forward"
-				{
-					"attribute_class"	"taunt_force_move_forward"
-					"value"			"1"
-				}
-				"taunt move speed"
-				{
-					"attribute_class"	"taunt_move_speed"
-					"value"			"100"
-				}
-				"taunt turn speed"
-				{
-					"attribute_class"	"taunt_turn_speed"
-					"value"			"75"
-				}
-				"taunt mimic"
-				{
-					"attribute_class"	"taunt_mimic"
-					"value"			"1"
-				}
-				"taunt success sound loop"
-				{
-					"attribute_class"	"taunt_success_sound_loop"
-					"value"			"music.conga_loop"
-				}
-			}
-			"taunt"
-			{
-				"custom_taunt_scene_per_class"
-				{
-					"scout"		"scenes\player\scout\low\conga.vcd"
-					"sniper"	"scenes\player\sniper\low\conga.vcd"
-					"soldier"	"scenes\player\soldier\low\conga.vcd"
-					"demoman"	"scenes\player\demoman\low\conga.vcd"
-					"medic"		"scenes\player\medic\low\conga.vcd"
-					"heavy"		"scenes\player\heavy\low\conga.vcd"
-					"spy"		"scenes\player\spy\low\conga.vcd"
-					"engineer"	"scenes\player\engineer\low\conga.vcd"
-					"pyro"		"scenes\player\pyro\low\conga.vcd"
-				}
-				"is_partner_taunt" 		"1"
-			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"			"20 4 -20"
@@ -635,7 +586,6 @@
 			}
 			"visuals"
 			{
-				"custom_sound0"		"music.conga_loop"
 				"sound_melee_hit_world"	"Weapon_Machete.HitWorld"
 				"sound_melee_miss"	"Weapon_Machete.Miss"
 				"sound_melee_hit"	"Weapon_Machete.HitFlesh"

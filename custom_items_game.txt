@@ -1142,6 +1142,84 @@
 			"mouse_pressed_sound"	"ui/item_mtp_pickup.wav"
 			"drop_sound"			"ui/item_mtp_drop.wav"
 		}
+		"741"
+		{
+			"name"	"The Rainblower"
+			"item_name"	"#TF_Rainblower"
+			"item_type_name"	"#TF_Weapon_Flamethrower"
+			"item_description"	"#TF_Rainblower_Desc"
+			"item_quality"	"unique"
+			
+			"item_class"	"tf_weapon_flamethrower"
+			"item_slot"	"primary"
+			"used_by_classes"
+			{
+				"pyro"	"1"
+			}
+			
+			"model_player"	"models/weapons/c_models/c_rainblower/c_rainblower.mdl"
+			"model_vision_filtered"	"models/weapons/c_models/c_flamethrower/c_flamethrower.mdl"
+			"attach_to_hands"	"1"
+			"static_attrs"
+			{
+				"flamethrower explain"			"1"
+				"min_viewmodel_offset"					"10 0 -23"	
+
+				"flame_gravity"					"0"
+				"flame_drag"					"8.500000"
+				"flame_up_speed"				"50"
+				"flame_speed"					"2450"
+				"flame_spread_degree"			"2.800000"
+				"flame_lifetime"				"0.600000"
+				"flame_random_life_time_offset"	"0.100000"
+				"flame_velocity_fade_start"		"0.300000"
+				"flame_velocity_fade_end"		"0.500000"	
+			}
+			"item_logname"	"rainblower"
+			"item_iconname"	"rainblower"
+			"show_in_armory"	"1"
+			"propername"	"1"
+			"attributes"
+			{
+				"vision opt in flags"
+				{
+					"attribute_class"	"vision_opt_in_flags"
+					"value"				"1"
+				}
+				"lunchbox adds minicrits"
+				{
+					"attribute_class"	"set_weapon_mode"
+					"value"	"3"
+				}
+				"pyrovision only DISPLAY ONLY"
+				{
+					"attribute_class"	"pyrovision_only_display"
+					"value"				"1"
+				}
+				"pyrovision opt in DISPLAY ONLY"
+				{
+					"attribute_class" 	"pyrovision_opt_in_display_only"
+					"value"		  		"1"
+				}
+				"special taunt"
+				{
+					"attribute_class"	"special_taunt"
+					"value" "1"
+				}
+			}
+			"visuals"
+			{
+				"sound_single_shot"		"Weapon_Rainblower.Fire"			
+				"sound_special1"		"Weapon_Rainblower.FireLoop"			
+				"sound_special2"		"Weapon_Rainblower.PilotLoop"			
+				"sound_special3"		"Weapon_Rainblower.WindDown"			
+			}
+			"image_inventory"	"backpack/weapons/c_models/c_rainblower/c_rainblower"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"mouse_pressed_sound"	"ui/item_mtp_pickup.wav"
+			"drop_sound"			"ui/item_mtp_drop.wav"
+		}
 		"939"
 		{
 			"name"	"The Bat Outta Hell"

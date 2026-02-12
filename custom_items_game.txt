@@ -747,6 +747,7 @@
 			}
 			"xifier_class_remap"	""
 			"mouse_pressed_sound"	"ui/item_leather_pickup.wav"
+			"drop_sound"		"ui/item_pack_drop.wav"
 		}
 		"933"
 		{

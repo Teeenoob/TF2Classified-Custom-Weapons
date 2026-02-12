@@ -1142,54 +1142,6 @@
 			"mouse_pressed_sound"	"ui/item_mtp_pickup.wav"
 			"drop_sound"			"ui/item_mtp_drop.wav"
 		}
-		"519"
-		{
-			"name"				"Pip-Boy"
-			"item_name"			"PIP-BOY: TELEPORTER"
-			"item_type_name"	"#TF_Weapon_ConstructionPDA"
-			"item_description"	"#TF_Pipboy_Desc"
-			"item_quality"	"unique"
-
-			"item_class"	"tf_weapon_pda_engineer_build"
-			"item_slot"		"pda"
-			"extra_wearable"	"models/workshop_partner/player/items/engineer/bet_pb/bet_pb.mdl"
-			"used_by_classes"
-			{
-				"Engineer"	"1"
-			}
-
-			"model_player"		"models/weapons/v_models/v_builder_engineer.mdl"
-			"model_world"		"models/weapons/w_models/w_builder.mdl"
-			"attach_to_hands"	"2"
-			"static_attrs"
-			{
-				"min_viewmodel_offset"	"10 0 -10"
-			}
-			"attributes"
-			{
-				"has pipboy build interface"
-				{
-					"attribute_class"	"set_custom_buildmenu"
-					"value"				"1"
-				}
-				"kill eater score type"
-				{
-					"attribute_class"	"kill_eater_score_type"
-					"value" 	"3"									
-				}
-				"kill eater score type 2"
-				{
-					"attribute_class"	"kill_eater_score_type_2"
-					"value" 	"0"									
-				}
-			}
-
-			"image_inventory"	"backpack/workshop_partner/player/items/engineer/bet_pb/bet_pb"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
-			"drop_sound"			"ui/item_helmet_pickup.wav"
-		}
 		"939"
 		{
 			"name"	"The Bat Outta Hell"

@@ -333,66 +333,6 @@
 			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
 		}
-		"169"
-		{
-			"name"	"Golden Wrench"
-			"first_sale_date"	"2010/09/29"
-			"item_class"	"tf_weapon_wrench"
-			"capabilities"
-			{
-				"nameable"		"1"
-			}
-			"tags"
-			{
-				"can_deal_damage"			"1"
-				"can_deal_critical_damage"	"1"
-				"can_destroy_sappers"		"1"
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Weapon_Wrench"
-			"item_name"	"#TF_Unique_Golden_Wrench"
-			"item_slot"	"melee"
-			"item_quality"	"unique"
-			"min_ilevel"	"25"
-			"max_ilevel"	"25"
-			"propername"	"1"
-			"attach_to_hands"	"1"
-			"item_logname"	"wrench_golden"
-			"item_iconname"	"wrench_golden"
-			"image_inventory"	"backpack/weapons/c_models/c_wrench/gold_wrench"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/c_models/c_wrench/c_wrench.mdl"
-			"used_by_classes"
-			{
-				"engineer"	"1"
-			}
-			"visuals"
-			{
-				"material_override"	"models/weapons/c_items/gold_wrench.vmt"
-			}
-			"attributes"
-			{
-				"turn to gold"
-				{
-					"attribute_class"	"set_turn_to_gold"
-					"value" "1"
-				}
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"static_attrs"
-			{
-				"limited quantity item"		"1"
-				"min_viewmodel_offset"		"10 -2 -9"
-			}
-			"mouse_pressed_sound"	"ui/item_medal_pickup.wav"
-			"drop_sound"		"ui/item_medal_pickup.wav"
-			"xifier_class_remap"	"wrench"
-		}
 		"58"
 		{
 			"name"	"Jarate"
@@ -865,6 +805,441 @@
 			}
 			"mouse_pressed_sound"	"ui/item_bottle_pickup.wav"
 			"drop_sound"		"ui/item_bottle_drop.wav"
+		}
+		"954"
+		{
+			"name"	"Memory Maker"
+			"first_sale_date"	"2012/11/28"
+			"item_class"	"saxxy"
+			"prefab"	"weapon_melee_allclass"
+			"craft_class"			"" 
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"item_logname"	"memory_maker"
+			"item_iconname"	"memory_maker"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Camera"
+			"item_name"	"#TF_Memory_Maker"
+			"item_description"	"#TF_Memory_Maker_Desc"
+			"item_slot"	"melee"
+			"image_inventory"	"backpack/weapons/c_models/c_8mm_camera/c_8mm_camera"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/c_models/c_8mm_camera/c_8mm_camera.mdl"
+			"attach_to_hands"	"1"
+			"item_quality"	"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"anim_slot" "MELEE_ALLCLASS"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"	
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"sound_melee_hit_world"	"Weapon_Machete.HitWorld"
+				"sound_melee_miss"	"Weapon_Machete.Miss"
+				"sound_melee_hit"	"Weapon_Machete.HitFlesh"
+				"sound_burst"		"Weapon_Machete.MissCrit"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+		}
+		"1013"
+		{
+			"name"	"The Ham Shank"
+			"first_sale_date"	"2013/05/10"
+			"item_class"	"saxxy"
+			"prefab"	"weapon_melee_allclass"
+			"craft_material_type"	"weapon"
+			"craft_class"		"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_be_festivized"		"1"
+			}
+			"item_logname"	"ham_shank"
+			"item_iconname"	"ham_shank"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Pork_Product"
+			"item_name"	"#TF_HamShank"
+			"item_description"	"#TF_HamShank_Desc"
+			"item_slot"	"melee"
+			"image_inventory"	"backpack/workshop/weapons/c_models/c_ham/c_ham"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"inspect_panel_dist" 				"40"
+			"model_player"	"models/workshop/weapons/c_models/c_ham/c_ham.mdl"
+			"attach_to_hands"	"1"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"anim_slot" "MELEE_ALLCLASS"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"pyro" "1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -6"
+			}
+			"visuals"
+			{
+				"sound_melee_hit"	"Weapon_HolyMackerel.HitFlesh"
+				"sound_melee_hit_world"	"Weapon_HolyMackerel.HitWorld"
+				"sound_melee_miss"	"Weapon_Machete.Miss"
+				"sound_burst"		"Weapon_Machete.MissCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_ham/c_ham_festivizer.mdl"
+					}
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_gooey_pickup.wav"
+			"drop_sound"		"ui/item_gooey_pickup.wav"
+		}
+		"880"
+		{
+			"name"	"The Freedom Staff"
+			"first_sale_date"	"2012/10/09"
+			"item_class"	"saxxy"
+			"prefab"	"weapon_melee_allclass"
+			"craft_class"		"weapon"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_be_festivized"		"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Staff"
+			"item_name"	"#TF_TW_Staff"
+			"item_description"	"#TF_TW_Staff_Desc"
+			"propername"	"1"
+			"item_slot"	"melee"
+			"item_quality"	"unique"
+			"min_ilevel"	"25"
+			"max_ilevel"	"25"
+			"attach_to_hands"	"1"
+			"item_logname"	"freedom_staff"
+			"item_iconname"	"freedom_staff"
+			"image_inventory"	"backpack/workshop_partner/weapons/c_models/c_tw_eagle/c_tw_eagle"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"inspect_panel_dist" 				"80"			
+			"model_player"	"models/workshop_partner/weapons/c_models/c_tw_eagle/c_tw_eagle.mdl"
+			"anim_slot" "MELEE_ALLCLASS"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"pyro" "1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"20 0 -10"
+				"inspect_viewmodel_offset"				"5 0 -18"				
+			}
+			"visuals"
+			{
+				"sound_melee_hit_world"	"Weapon_Machete.HitWorld"
+				"sound_melee_miss"	"Weapon_Machete.Miss"
+				"sound_melee_hit"	"Weapon_Machete.HitFlesh"
+				"sound_burst"		"Weapon_Machete.MissCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop_partner/weapons/c_models/c_tw_eagle/c_tw_eagle_festivizer.mdl"
+					}
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
+			"drop_sound"		"ui/item_wood_pole_drop.wav"
+		}
+		"474"
+		{
+			"name"	"The Conscientious Objector"
+			"first_sale_date"	"2011/09/07"
+			"item_class"	"saxxy"
+			"prefab"	"weapon_melee_allclass"
+			"craft_class"		"weapon"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_customize_texture"	"1"
+				"can_craft_count"	"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Sign"
+			"item_name"	"#TF_ConscientiousObjector"
+			"item_description"	"#TF_ConscientiousObjector_Desc"
+			"item_slot"	"melee"
+			"item_quality"	"unique"
+			"min_ilevel"	"25"
+			"max_ilevel"	"25"
+			"propername"	"1"
+			"attach_to_hands"	"1"
+			"item_logname"	"nonnonviolent_protest"
+			"item_iconname"	"nonnonviolent_protest"
+			"image_inventory"	"backpack/workshop/weapons/c_models/c_picket/c_picket"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"inspect_panel_dist" 				"80"			
+			"model_player"	"models/workshop/weapons/c_models/c_picket/c_picket.mdl"
+			"anim_slot" "MELEE_ALLCLASS"
+			"armory_desc" "can_customize_texture"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"pyro" "1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -5"
+				"inspect_viewmodel_offset"				"0 0 -18"
+			}
+			"visuals"
+			{
+				"sound_melee_hit_world"	"Weapon_Machete.HitWorld"
+				"sound_melee_miss"	"Weapon_Machete.Miss"
+				"sound_melee_hit"	"Weapon_Machete.HitFlesh"
+				"sound_burst"		"Weapon_Machete.MissCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_picket/c_picket_festivizer.mdl"
+					}
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
+			"drop_sound"		"ui/item_wood_pole_drop.wav"
+			"custom_texture_blend_steps"
+			{
+				"1"
+				{
+					"op"	"normal"
+					"image"	"scripts/items/custom_texture_blend_layers/paper_overlay.png"
+				}
+			}
+		}
+		"739"
+		{
+			"name"	"The Lollichop"
+			"prefab"	"valve"
+			"first_sale_date"	"2012/06/27"
+			"item_class"	"tf_weapon_fireaxe"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+			}
+			"item_logname"	"lollichop"
+			"item_iconname"	"lollichop"
+			"show_in_armory"	"1"
+			"item_type_name"	"#tf_weapon_fireaxe"
+			"item_name"	"#TF_Lollichop"
+			"item_description"	"#TF_Lollichop_Desc"
+			"item_slot"	"melee"
+			"image_inventory"	"backpack/weapons/c_models/c_lollichop/c_lollichop"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/c_models/c_lollichop/c_lollichop.mdl"
+			"model_vision_filtered"		"models/weapons/c_models/c_fireaxe_pyro/c_fireaxe_pyro.mdl"
+			"attach_to_hands"	"1"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"used_by_classes"
+			{
+				"pyro"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"15 2 -12"				
+			}
+			"attributes"
+			{
+				"vision opt in flags"
+				{
+					"attribute_class"	"vision_opt_in_flags"
+					"value"				"1"
+				}
+				"pyrovision only DISPLAY ONLY"
+				{
+					"attribute_class"	"pyrovision_only_display"
+					"value"				"1"
+				}
+				"pyrovision opt in DISPLAY ONLY"
+				{
+					"attribute_class" 	"pyrovision_opt_in_display_only"
+					"value"		  		"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_mtp_pickup.wav"
+			"drop_sound"			"ui/item_mtp_drop.wav"
+		}
+		"939"
+		{
+			"name"	"The Bat Outta Hell"
+			"first_sale_date"	"2012/10/26"
+			"item_class"	"saxxy"
+			"prefab"	"weapon_melee_allclass"
+			"craft_class"		"weapon"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_be_festivized"		"1"
+			}
+			"item_logname"	"skullbat"
+			"item_iconname"	"skullbat"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Skullbat"
+			"item_name"	"#TF_BatOuttaHell"
+			"item_slot"	"melee"
+			"image_inventory"	"backpack/workshop/weapons/c_models/c_skullbat/c_skullbat"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"inspect_panel_dist"        "45"
+			"model_player"	"models/workshop/weapons/c_models/c_skullbat/c_skullbat.mdl"
+			"attach_to_hands"	"1"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"anim_slot" "MELEE_ALLCLASS"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"pyro" "1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -6"
+			}
+			"visuals"
+			{
+				"sound_melee_hit_world"	"Weapon_Machete.HitWorld"
+				"sound_melee_miss"	"Weapon_Machete.Miss"
+				"sound_melee_hit"	"Weapon_Machete.HitFlesh"
+				"sound_burst"		"Weapon_Machete.MissCrit"
+				"styles"
+				{
+					"0"
+					{
+						"skin_red"	"0"
+						"skin_blu"	"1"
+						"model_player"	"models/workshop/weapons/c_models/c_skullbat/c_skullbat.mdl"
+						"name"		"#TF_BatOuttaHell_Style0"
+					}
+					"1"
+					{
+						"skin_red"	"0"
+						"skin_blu"	"1"
+						"model_player"	"models/workshop/weapons/c_models/c_skullbat/c_skullbat_s1.mdl"
+						"name"		"#TF_BatOuttaHell_Style1"
+					}
+					"2"
+					{
+						"skin_red"	"0"
+						"skin_blu"	"1"
+						"model_player"	"models/workshop/weapons/c_models/c_skullbat/c_skullbat_s2.mdl"
+						"name"		"#TF_BatOuttaHell_Style2"
+					}
+					"3"
+					{
+						"skin_red"	"0"
+						"skin_blu"	"1"
+						"model_player"	"models/workshop/weapons/c_models/c_skullbat/c_skullbat_s3.mdl"
+						"name"		"#TF_BatOuttaHell_Style3"
+					}
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_skullbat/c_skullbat_festivizer.mdl"
+					}
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
 	}
 }

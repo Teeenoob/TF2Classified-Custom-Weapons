@@ -13,8 +13,6 @@
 			"item_slot"	"melee"
 			"anim_slot"	"item1"
 			"item_quality"	"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
 			"attach_to_hands"	"1"
@@ -76,8 +74,6 @@
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
 			"item_quality"	"unique"
-			"min_ilevel"	"1"
-			"max_ilevel"	"1"
 			"attach_to_hands"	"1"
 
 			"visuals"
@@ -136,8 +132,6 @@
 			"item_name"	"#TF_Weapon_SniperRifle"
 			"item_slot"	"primary"
 			"item_quality"	"normal"
-			"min_ilevel"	"1"
-			"max_ilevel"	"1"
 			"image_inventory"	"backpack/weapons/w_models/w_sniperrifle"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
@@ -163,8 +157,6 @@
 			"item_type_name"	"#TF_Weapon_Knife"
 			"item_slot"	"melee"
 			"item_quality"	"unique"
-			"min_ilevel"	"1"
-			"max_ilevel"	"1"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
 			"attach_to_hands" "1"
@@ -195,17 +187,9 @@
 		}
 		"weapon_red_tape_recorder"
 		{
-			"first_sale_date"	"2012/08/02"
-			"capabilities"
-			{
-				"nameable"		"1"
-				"can_craft_count"	"1"
-			}
 			"base_item_name"	"The Red-Tape Recorder"
 			"enabled"	"0"
 			"item_class"	"tf_weapon_sapper"
-			"craft_class"	"weapon"
-			"craft_material_type"	"weapon"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Spy_Sapper"
 			"item_name"	"#TF_SD_Sapper"
@@ -285,8 +269,6 @@
 			"item_slot"	"melee"
 			"item_quality"	"unique"
 			"propername"	"1"
-			"min_ilevel"	"15"
-			"max_ilevel"	"15"
 			"inspect_panel_dist" "45"
 			"attach_to_hands"	"1"
 			"image_inventory"	"backpack/weapons/c_models/c_wooden_bat/c_wooden_bat"
@@ -349,8 +331,6 @@
 			"item_slot"	"secondary"
 			"item_quality"	"unique"
 			"anim_slot"	"item1"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attach_to_hands"	"1"
 			"image_inventory"	"backpack/weapons/c_models/urinejar"
 			"image_inventory_size_w"		"128"
@@ -421,8 +401,6 @@
 			"inspect_panel_dist" "40"
 			"item_quality"	"unique"
 			"propername"	"1"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"anim_slot" "MELEE_ALLCLASS"
 			"xifier_class_remap"	"Frying Pan"
 			"used_by_classes"
@@ -462,12 +440,6 @@
 			"name"	"Necro Smasher"
 			"item_class"	"saxxy"
 			"prefab"	"weapon_melee_allclass"
-			"craft_class"			"" 
-			"capabilities"
-			{
-				"nameable"		"1"
-				"can_craft_count"	"1"
-			}
 			"tags"
 			{
 				"can_deal_damage"			"1"
@@ -490,8 +462,6 @@
 			"attach_to_hands"	"1"
 			"item_quality"	"unique"
 			"propername"	"1"
-			"min_ilevel"	"50"
-			"max_ilevel"	"50"
 			"anim_slot" "MELEE_ALLCLASS"
 			"used_by_classes"
 			{
@@ -531,13 +501,7 @@
 		{
 			"name"		"The Bread Bite"
 			"prefab"	"valve weapon_gru"
-			"first_sale_date"		"2014/06/18"
 			"propername"	"1"
-			"craft_class"	""
-			"capabilities"
-			{
-				"nameable"		"1"
-			}
 			"tags"
 			{
 				"can_deal_damage"			"1"
@@ -550,8 +514,6 @@
 			"item_quality"	"unique"
 			"item_logname"	"bread_bite"
 			"item_iconname"	"bread_bite"
-			"min_ilevel"	"1"
-			"max_ilevel"	"100"
 			"image_inventory"	"backpack/weapons/c_models/c_breadmonster_gloves/c_breadmonster_gloves"
 			"model_player"		"models/weapons/c_models/c_breadmonster_gloves/c_breadmonster_gloves.mdl"
 			"attach_to_hands"	"1"
@@ -608,16 +570,9 @@
 		"933"
 		{
 			"name"	"The Ap-Sap"
-			"first_sale_date"	"2013/04/23"
 			"prefab"	"valve"
-			"capabilities"
-			{
-				"nameable"		"1"
-			}
 			"item_class"	"tf_weapon_sapper"
 			"prefab"	"weapon_sapper"
-			"craft_class"	"weapon"
-			"craft_material_type"	"weapon"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Spy_Sapper"
 			"item_name"	"#TF_Weapon_Ap_Sap"
@@ -665,15 +620,8 @@
 		"727"
 		{
 			"name"			"The Black Rose"
-			"first_sale_date"	"2012/02/16"
 			"item_class"	"tf_weapon_knife"
 			"prefab"	"weapon_knife"
-			"craft_class"	""				
-			"craft_material_type"	"weapon"
-			"capabilities"
-			{
-				"nameable"		"1"
-			}
 			"tags"
 			{
 				"can_deal_damage"			"1"
@@ -689,8 +637,6 @@
 			"item_slot"	"melee"
 			"item_logname"	"black_rose"
 			"item_iconname"	"black_rose"
-			"min_ilevel"	"1"
-			"max_ilevel"	"1"
 			"image_inventory"	"backpack/workshop/weapons/c_models/c_ava_roseknife/c_ava_roseknife_v"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
@@ -744,15 +690,7 @@
 		"609"
 		{
 			"name"	"The Scottish Handshake"
-			"first_sale_date"	"2011/09/07"
 			"item_class"	"tf_weapon_bottle"
-			"craft_class"	"weapon"
-			"craft_material_type"	"weapon"
-			"capabilities"
-			{
-				"nameable"		"1"
-				"can_craft_count"	"1"
-			}
 			"tags"
 			{
 				"can_deal_damage"			"1"
@@ -769,8 +707,6 @@
 			"item_slot"	"melee"
 			"item_quality"	"unique"
 			"propername"	"1"
-			"min_ilevel"	"10"
-			"max_ilevel"	"10"
 			"image_inventory" "backpack/workshop/weapons/c_models/c_scotland_shard/c_scotland_shard"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
@@ -809,14 +745,8 @@
 		"954"
 		{
 			"name"	"Memory Maker"
-			"first_sale_date"	"2012/11/28"
 			"item_class"	"saxxy"
 			"prefab"	"weapon_melee_allclass"
-			"craft_class"			"" 
-			"capabilities"
-			{
-				"nameable"		"1"
-			}
 			"item_logname"	"memory_maker"
 			"item_iconname"	"memory_maker"
 			"show_in_armory"	"1"
@@ -830,8 +760,6 @@
 			"model_player"	"models/weapons/c_models/c_8mm_camera/c_8mm_camera.mdl"
 			"attach_to_hands"	"1"
 			"item_quality"	"unique"
-			"min_ilevel"	"50"
-			"max_ilevel"	"50"
 			"anim_slot" "MELEE_ALLCLASS"
 			"used_by_classes"
 			{
@@ -864,16 +792,8 @@
 		"1013"
 		{
 			"name"	"The Ham Shank"
-			"first_sale_date"	"2013/05/10"
 			"item_class"	"saxxy"
 			"prefab"	"weapon_melee_allclass"
-			"craft_material_type"	"weapon"
-			"craft_class"		"weapon"
-			"capabilities"
-			{
-				"nameable"		"1"
-				"can_craft_count"	"1"
-			}
 			"tags"
 			{
 				"can_deal_damage"			"1"
@@ -896,8 +816,6 @@
 			"attach_to_hands"	"1"
 			"item_quality"	"unique"
 			"propername"	"1"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"anim_slot" "MELEE_ALLCLASS"
 			"used_by_classes"
 			{
@@ -933,16 +851,8 @@
 		"880"
 		{
 			"name"	"The Freedom Staff"
-			"first_sale_date"	"2012/10/09"
 			"item_class"	"saxxy"
 			"prefab"	"weapon_melee_allclass"
-			"craft_class"		"weapon"
-			"craft_material_type"	"weapon"
-			"capabilities"
-			{
-				"nameable"		"1"
-				"can_craft_count"	"1"
-			}
 			"tags"
 			{
 				"can_deal_damage"			"1"
@@ -957,8 +867,6 @@
 			"propername"	"1"
 			"item_slot"	"melee"
 			"item_quality"	"unique"
-			"min_ilevel"	"25"
-			"max_ilevel"	"25"
 			"attach_to_hands"	"1"
 			"item_logname"	"freedom_staff"
 			"item_iconname"	"freedom_staff"
@@ -1003,16 +911,11 @@
 		"474"
 		{
 			"name"	"The Conscientious Objector"
-			"first_sale_date"	"2011/09/07"
 			"item_class"	"saxxy"
 			"prefab"	"weapon_melee_allclass"
-			"craft_class"		"weapon"
-			"craft_material_type"	"weapon"
 			"capabilities"
 			{
-				"nameable"		"1"
 				"can_customize_texture"	"1"
-				"can_craft_count"	"1"
 			}
 			"tags"
 			{
@@ -1027,8 +930,6 @@
 			"item_description"	"#TF_ConscientiousObjector_Desc"
 			"item_slot"	"melee"
 			"item_quality"	"unique"
-			"min_ilevel"	"25"
-			"max_ilevel"	"25"
 			"propername"	"1"
 			"attach_to_hands"	"1"
 			"item_logname"	"nonnonviolent_protest"
@@ -1084,15 +985,7 @@
 		{
 			"name"	"The Lollichop"
 			"prefab"	"valve"
-			"first_sale_date"	"2012/06/27"
 			"item_class"	"tf_weapon_fireaxe"
-			"craft_class"	"weapon"
-			"craft_material_type"	"weapon"
-			"capabilities"
-			{
-				"nameable"		"1"
-				"can_craft_count"	"1"
-			}
 			"tags"
 			{
 				"can_deal_damage"			"1"
@@ -1223,16 +1116,8 @@
 		"939"
 		{
 			"name"	"The Bat Outta Hell"
-			"first_sale_date"	"2012/10/26"
 			"item_class"	"saxxy"
 			"prefab"	"weapon_melee_allclass"
-			"craft_class"		"weapon"
-			"craft_material_type"	"weapon"
-			"capabilities"
-			{
-				"nameable"		"1"
-				"can_craft_count"	"1"
-			}
 			"tags"
 			{
 				"can_deal_damage"			"1"
@@ -1254,8 +1139,6 @@
 			"attach_to_hands"	"1"
 			"item_quality"	"unique"
 			"propername"	"1"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"anim_slot" "MELEE_ALLCLASS"
 			"used_by_classes"
 			{

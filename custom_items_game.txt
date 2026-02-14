@@ -310,7 +310,7 @@
 			"mouse_pressed_sound"	"ui/item_bottle_pickup.wav"
 			"drop_sound"		"ui/item_bottle_drop.wav"
 		}
-		"264"
+		"264" // Frying Pan - reskin
 		{
 			"name"	"Frying Pan"
 			"item_class"	"saxxy"
@@ -369,7 +369,7 @@
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
-		"1123"
+		"1123" // Necro Smasher - reskin
 		{
 			"name"	"Necro Smasher"
 			"item_class"	"saxxy"
@@ -431,7 +431,7 @@
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
-		"1100"
+		"1100" // The Bread Bite - reskin + extra_wearable
 		{
 			"name"		"The Bread Bite"
 			"prefab"	"valve weapon_gru"
@@ -551,7 +551,7 @@
 			"name"	"The Red-Tape Recorder"
 			"prefab"		"weapon_red_tape_recorder"
 		}
-		"727"
+		"727" // The Black Rose - reskin
 		{
 			"name"			"The Black Rose"
 			"item_class"	"tf_weapon_knife"
@@ -621,7 +621,7 @@
 			"mouse_pressed_sound"	"ui/item_knife_small_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
-		"609"
+		"609" // The Scottish Handshake - reskin
 		{
 			"name"	"The Scottish Handshake"
 			"item_class"	"tf_weapon_bottle"
@@ -676,7 +676,7 @@
 			"mouse_pressed_sound"	"ui/item_bottle_pickup.wav"
 			"drop_sound"		"ui/item_bottle_drop.wav"
 		}
-		"954"
+		"954" // Memory Maker - reskin
 		{
 			"name"	"Memory Maker"
 			"item_class"	"saxxy"
@@ -723,7 +723,7 @@
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
-		"1013"
+		"1013" // The Ham Shank - reskin
 		{
 			"name"	"The Ham Shank"
 			"item_class"	"saxxy"
@@ -782,7 +782,7 @@
 			"mouse_pressed_sound"	"ui/item_gooey_pickup.wav"
 			"drop_sound"		"ui/item_gooey_pickup.wav"
 		}
-		"880"
+		"880" // The Freedom Staff - reskin
 		{
 			"name"	"The Freedom Staff"
 			"item_class"	"saxxy"
@@ -842,7 +842,7 @@
 			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
 		}
-		"474"
+		"474"// The Conscientious Objector - change item_description to not include text about applying custom details at some point ( - reskin )
 		{
 			"name"	"The Conscientious Objector"
 			"item_class"	"saxxy"
@@ -915,7 +915,7 @@
 				}
 			}
 		}
-		"739"
+		"739" // The Lollichop - reskin
 		{
 			"name"	"The Lollichop"
 			"prefab"	"valve"
@@ -969,7 +969,7 @@
 			"mouse_pressed_sound"	"ui/item_mtp_pickup.wav"
 			"drop_sound"			"ui/item_mtp_drop.wav"
 		}
-		"741"
+		"741" // The Rainblower - note: that there's weird missing model when taunting, or at least on my side ( - reskin )
 		{
 			"name"	"The Rainblower"
 			"item_name"	"#TF_Rainblower"
@@ -1047,7 +1047,7 @@
 			"mouse_pressed_sound"	"ui/item_mtp_pickup.wav"
 			"drop_sound"			"ui/item_mtp_drop.wav"
 		}
-		"939"
+		"939"	// The Bat Outta Hell - reskin
 		{
 			"name"	"The Bat Outta Hell"
 			"item_class"	"saxxy"

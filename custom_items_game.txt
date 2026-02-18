@@ -12,7 +12,7 @@
 			"item_type_name"	"#TF_Weapon_Sword"
 			"item_slot"	"melee"
 			"anim_slot"	"item1"
-			"item_quality"	"unique"
+			"item_quality"	"normal"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
 			"attach_to_hands"	"1"
@@ -73,7 +73,7 @@
 			"anim_slot"	"ITEM1"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"item_quality"	"unique"
+			"item_quality"	"normal"
 			"attach_to_hands"	"1"
 
 			"visuals"
@@ -156,7 +156,7 @@
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Knife"
 			"item_slot"	"melee"
-			"item_quality"	"unique"
+			"item_quality"	"normal"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
 			"attach_to_hands" "1"
@@ -194,7 +194,7 @@
 			"item_type_name"	"#TF_Weapon_Spy_Sapper"
 			"item_name"	"#TF_SD_Sapper"
 			"item_slot"	"building"
-			"item_quality"	"unique"
+			"item_quality"	"normal"
 			"item_logname"	"recorder"
 			"item_iconname"	"recorder"
 			"image_inventory"	"backpack/workshop_partner/weapons/c_models/c_sd_sapper/c_sd_sapper"
@@ -245,6 +245,74 @@
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
+		"weapon_gatling_gun"
+		{
+			"enabled"	"1"
+			"item_class"	"tf_weapon_minigun"
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Minigun"
+			"item_name"	"#TF_GatlingGun"
+			"item_slot"	"primary"
+			"item_logname"	"brass_beast"
+			"item_iconname"	"brass_beast"
+			"image_inventory"	"backpack/workshop/weapons/c_models/c_gatling_gun/c_gatling_gun"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/workshop/weapons/c_models/c_gatling_gun/c_gatling_gun.mdl"
+			"attach_to_hands"	"1"
+			"propername"	"1"
+			"item_quality"	"normal"
+			"used_by_classes"
+			{
+				"heavy"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"		"10 0 -9"
+			}
+			"visuals"
+			{
+				"sound_reload"	"Weapon_Gatling.Reload"
+				"sound_empty"	"Weapon_Gatling.ClipEmpty"
+				"sound_double_shot"	"Weapon_Gatling.Fire"
+				"sound_special1"	"Weapon_Gatling.WindUp"
+				"sound_special2"	"Weapon_Gatling.WindDown"
+				"sound_special3"	"Weapon_Gatling.Spin"
+				"sound_burst"	"Weapon_Gatling.FireCrit"
+			}
+			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+			"drop_sound"		"ui/item_heavy_gun_drop.wav"
+			"attributes"
+			{
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"1.20"
+				}
+				"minigun spinup time increased"
+				{
+					"attribute_class"	"mult_minigun_spinup_time"
+					"value" "1.5"
+				}
+				"aiming movespeed decreased"
+				{
+					"attribute_class"	"mult_player_aiming_movespeed"
+					"value" "0.4"
+				}
+				"spunup_damage_resistance"
+				{
+					"attribute_class"		"spunup_damage_resistance"
+					"value"					"0.80"
+				}
+			}
+		}
 
 	}
 	"items"
@@ -263,7 +331,7 @@
 			"item_type_name"	"#TF_Weapon_Jar"
 			"item_name"	"#TF_Unique_Achievement_Jar"
 			"item_slot"	"secondary"
-			"item_quality"	"unique"
+			"item_quality"	"normal"
 			"anim_slot"	"item1"
 			"attach_to_hands"	"1"
 			"image_inventory"	"backpack/weapons/c_models/urinejar"
@@ -333,7 +401,7 @@
 			"model_player"	"models/weapons/c_models/c_frying_pan/c_frying_pan.mdl"
 			"attach_to_hands"	"1"
 			"inspect_panel_dist" "40"
-			"item_quality"	"unique"
+			"item_quality"	"normal"
 			"propername"	"1"
 			"anim_slot" "MELEE_ALLCLASS"
 			"xifier_class_remap"	"Frying Pan"
@@ -394,7 +462,7 @@
 			"inspect_panel_dist" 				"46"			
 			"model_player"	"models/weapons/c_models/c_carnival_mallet/c_carnival_mallet.mdl"
 			"attach_to_hands"	"1"
-			"item_quality"	"unique"
+			"item_quality"	"normal"
 			"propername"	"1"
 			"anim_slot" "MELEE_ALLCLASS"
 			"used_by_classes"
@@ -445,7 +513,7 @@
 			"item_name"			"#TF_Weapon_BreadBite"
 			"item_description"	"#TF_Weapon_BreadBite_Desc"
 			"item_slot"	"melee"
-			"item_quality"	"unique"
+			"item_quality"	"normal"
 			"item_logname"	"bread_bite"
 			"item_iconname"	"bread_bite"
 			"image_inventory"	"backpack/weapons/c_models/c_breadmonster_gloves/c_breadmonster_gloves"
@@ -512,7 +580,7 @@
 			"item_name"	"#TF_Weapon_Ap_Sap"
 			"item_description"	"#TF_Weapon_Ap_Sap_desc"
 			"item_slot"	"building"
-			"item_quality"	"unique"
+			"item_quality"	"normal"
 			"item_logname"	"psapper"
 			"item_iconname"	"psapper"
 			"image_inventory"	"backpack/weapons/c_models/c_p2rec/c_p2rec"
@@ -565,7 +633,7 @@
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Knife"
 			"propername"	"1"
-			"item_quality"	"unique"
+			"item_quality"	"normal"
 			"item_name"			"#TF_BlackRose"
 			"item_description"	"#TF_BlackRose_Desc"
 			"item_slot"	"melee"
@@ -639,7 +707,7 @@
 			"item_logname"	"scotland_shard"
 			"item_iconname"	"scotland_shard"
 			"item_slot"	"melee"
-			"item_quality"	"unique"
+			"item_quality"	"normal"
 			"propername"	"1"
 			"image_inventory" "backpack/workshop/weapons/c_models/c_scotland_shard/c_scotland_shard"
 			"image_inventory_size_w"		"128"
@@ -693,7 +761,7 @@
 			"image_inventory_size_h"		"82"
 			"model_player"	"models/weapons/c_models/c_8mm_camera/c_8mm_camera.mdl"
 			"attach_to_hands"	"1"
-			"item_quality"	"unique"
+			"item_quality"	"normal"
 			"anim_slot" "MELEE_ALLCLASS"
 			"used_by_classes"
 			{
@@ -748,7 +816,7 @@
 			"inspect_panel_dist" 				"40"
 			"model_player"	"models/workshop/weapons/c_models/c_ham/c_ham.mdl"
 			"attach_to_hands"	"1"
-			"item_quality"	"unique"
+			"item_quality"	"normal"
 			"propername"	"1"
 			"anim_slot" "MELEE_ALLCLASS"
 			"used_by_classes"
@@ -800,7 +868,7 @@
 			"item_description"	"#TF_TW_Staff_Desc"
 			"propername"	"1"
 			"item_slot"	"melee"
-			"item_quality"	"unique"
+			"item_quality"	"normal"
 			"attach_to_hands"	"1"
 			"item_logname"	"freedom_staff"
 			"item_iconname"	"freedom_staff"
@@ -863,7 +931,7 @@
 			"item_name"	"#TF_ConscientiousObjector"
 			"item_description"	"#TF_ConscientiousObjector_Desc"
 			"item_slot"	"melee"
-			"item_quality"	"unique"
+			"item_quality"	"normal"
 			"propername"	"1"
 			"attach_to_hands"	"1"
 			"item_logname"	"nonnonviolent_protest"
@@ -938,7 +1006,7 @@
 			"model_player"	"models/weapons/c_models/c_lollichop/c_lollichop.mdl"
 			"model_vision_filtered"		"models/weapons/c_models/c_fireaxe_pyro/c_fireaxe_pyro.mdl"
 			"attach_to_hands"	"1"
-			"item_quality"	"unique"
+			"item_quality"	"normal"
 			"propername"	"1"
 			"used_by_classes"
 			{
@@ -975,7 +1043,7 @@
 			"item_name"	"#TF_Rainblower"
 			"item_type_name"	"#TF_Weapon_Flamethrower"
 			"item_description"	"#TF_Rainblower_Desc"
-			"item_quality"	"unique"
+			"item_quality"	"normal"
 			
 			"item_class"	"tf_weapon_flamethrower"
 			"item_slot"	"primary"
@@ -1071,7 +1139,7 @@
 			"inspect_panel_dist"        "45"
 			"model_player"	"models/workshop/weapons/c_models/c_skullbat/c_skullbat.mdl"
 			"attach_to_hands"	"1"
-			"item_quality"	"unique"
+			"item_quality"	"normal"
 			"propername"	"1"
 			"anim_slot" "MELEE_ALLCLASS"
 			"used_by_classes"
@@ -1135,6 +1203,63 @@
 			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+		}
+		"30001" // LILITH - MINIGUN
+		{
+			"name"						"serider_lilith"
+			"item_class"				"tf_weapon_minigun"
+			"item_slot"					"primary"
+			"show_in_armory"			"1"
+			
+			"item_quality"				"unique"
+			"item_name"					"Lilith"
+			"item_type_name"			"#TF_Weapon_Minigun"
+			"item_description"			"Kill the ones who want peace."
+
+			"image_inventory"		"backpack/weapons/w_models/w_minigun"
+			"model_player"		"models/weapons/v_models/v_minigun_heavy.mdl"
+			"model_world"		"models/weapons/w_models/w_minigun.mdl"
+			"attach_to_hands"			"2"
+			"static_attrs"
+			{
+				"min_viewmodel_offset"	"10 0 -9"
+				"provide on active"		"1"
+			}
+            "attributes"
+            {
+                "mod mini-crit airborne"
+                {
+                    "attribute_class"    "mini_crit_airborne"
+                    "value"    "1"
+                }
+				"critboost on kill"
+                {
+                    "attribute_class"    "add_onkill_critboost_time"
+                    "value"    "1"
+                }
+                "healing received penalty"
+                {
+                    "attribute_class"    "mult_healing_received"
+                    "value"    "0.6"
+                }
+                "no primary ammo from dispensers while active"
+                {
+                    "attribute_class"    "no_primary_ammo_from_dispensers"
+                    "value"    "1"
+                }
+				"max health additive penalty"
+				{
+					"attribute_class"	"add_maxhealth"
+					"value"		"-150"
+				}
+				"crits_become_minicrits"
+				{
+					"attribute_class"	"crits_become_minicrits"
+					"value"		"1"
+				}
+            }
+			"mouse_pressed_sound"		"#ui/item_crate_drop.wav"
+			"drop_sound"				"#ui/item_crate_pickup.wav"
 		}
 	}
 }

@@ -249,12 +249,6 @@
 		{
 			"enabled"	"1"
 			"item_class"	"tf_weapon_minigun"
-			"craft_class"	"weapon"
-			"craft_material_type"	"weapon"
-			"capabilities"
-			{
-				"nameable"		"1"
-			}
 			"tags"
 			{
 				"can_deal_damage"			"1"
@@ -275,8 +269,6 @@
 			"attach_to_hands"	"1"
 			"propername"	"1"
 			"item_quality"	"normal"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"used_by_classes"
 			{
 				"heavy"	"1"
@@ -1212,7 +1204,7 @@
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
-		"30001"
+		"30001" // LILITH - MINIGUN
 		{
 			"name"						"serider_lilith"
 			"item_class"				"tf_weapon_minigun"

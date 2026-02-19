@@ -1261,5 +1261,34 @@
 			"mouse_pressed_sound"		"#ui/item_crate_drop.wav"
 			"drop_sound"				"#ui/item_crate_pickup.wav"
 		}
+		"30002" // Fire Retardant - beta content
+		{
+			"name"				"fire_retardant"
+			"item_name"			"Fire Retardant"
+			"item_type_name"	"#TF_Wearable_Suit"
+			"item_description"	"Ok guys, bad news: we lost that last one."
+			"item_quality"		"unique"
+
+			"item_class"	"tf_wearable"
+			"item_slot"		"secondary"
+			"used_by_classes"
+			{
+				"Spy"	"1"
+			}
+			"attributes"
+			{
+				"dmg taken from fire reduced"
+				{
+					"attribute_class"	"mult_dmgtaken_from_fire"
+					"value" "0.10"
+				}
+			}
+			"act_as_wearable"	"1"
+			"anim_slot"			"FORCE_NOT_USED"
+			"equip_region"		"spy_coat"
+			"image_inventory"		"backpack/player/items/spy/firesuit"
+			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
+			"drop_sound"			"ui/item_light_gun_drop.wav"
+		}
 	}
 }

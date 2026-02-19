@@ -1266,8 +1266,8 @@
 			"name"				"fire_retardant"
 			"item_name"			"Fire Retardant"
 			"item_type_name"	"#TF_Wearable_Suit"
-			"item_description"	"Ok guys, bad news: we lost that last one."
-			"item_quality"		"unique"
+			"item_description"	"Let's settle this like gentlemen!"
+			"item_quality"		"vintage"
 
 			"item_class"	"tf_wearable"
 			"item_slot"		"secondary"
@@ -1277,10 +1277,10 @@
 			}
 			"attributes"
 			{
-				"dmg taken from fire reduced"
+				"fire retardant"
 				{
-					"attribute_class"	"mult_dmgtaken_from_fire"
-					"value" "0.10"
+					"attribute_class"	"set_fire_retardant"
+					"value" "1.0"
 				}
 			}
 			"act_as_wearable"	"1"

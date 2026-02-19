@@ -1285,7 +1285,7 @@
 			}
 			"act_as_wearable"	"1"
 			"anim_slot"			"FORCE_NOT_USED"
-			
+			"equip_region"		"spy_coat"
 			"image_inventory"		"backpack/player/items/spy/firesuit"
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"			"ui/item_light_gun_drop.wav"

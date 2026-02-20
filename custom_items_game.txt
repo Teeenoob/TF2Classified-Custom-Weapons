@@ -1148,7 +1148,6 @@
 			"image_inventory_size_h"		"82"
 			"inspect_panel_dist"        "45"
 			"model_player"	"models/workshop/weapons/c_models/c_skullbat/c_skullbat.mdl"
-			"extra_wearable"	"models/player/items/all_class/skull_sniper.mdl"
 			"attach_to_hands"	"1"
 			"item_quality"	"normal"
 			"propername"	"1"

@@ -645,6 +645,7 @@
 			"inspect_panel_dist" 			"25"
 			"attach_to_hands" "1"
 			"model_player"		"models/workshop/weapons/c_models/c_ava_roseknife/c_ava_roseknife.mdl"
+			"extra_wearable"	"models/workshop/player/items/spy/hwn2019_avian_amante/hwn2019_avian_amante.mdl"
 			"used_by_classes"
 			{
 				"spy"	"1"
@@ -655,6 +656,10 @@
 			}
 			"visuals"
 			{
+				"player_bodygroups"
+				{
+					"hat"	"1"
+				}
 				"styles"
 				{
 					"0"
@@ -714,6 +719,7 @@
 			"image_inventory_size_h"		"82"
 			"inspect_panel_dist" 				"30"			
 			"model_player"	"models/workshop/weapons/c_models/c_scotland_shard/c_scotland_shard.mdl"
+			"extra_wearable"	"models/workshop/player/items/demo/hwn2024_badlands_bandido_style2/hwn2024_badlands_bandido_style2.mdl"
 			"attach_to_hands" "1"
 			"used_by_classes"
 			{
@@ -733,6 +739,10 @@
 			}
 			"visuals"
 			{
+				"player_bodygroups"
+				{
+					"hat"	"1"
+				}
 				"attached_models_festive"
 				{
 					"0"
@@ -1138,6 +1148,7 @@
 			"image_inventory_size_h"		"82"
 			"inspect_panel_dist"        "45"
 			"model_player"	"models/workshop/weapons/c_models/c_skullbat/c_skullbat.mdl"
+			"extra_wearable"	"models/player/items/all_class/skull_sniper.mdl"
 			"attach_to_hands"	"1"
 			"item_quality"	"normal"
 			"propername"	"1"
@@ -1162,6 +1173,10 @@
 				"sound_melee_miss"	"Weapon_Machete.Miss"
 				"sound_melee_hit"	"Weapon_Machete.HitFlesh"
 				"sound_burst"		"Weapon_Machete.MissCrit"
+				"player_bodygroups"
+				{
+					"hat"	"1"
+				}
 				"styles"
 				{
 					"0"

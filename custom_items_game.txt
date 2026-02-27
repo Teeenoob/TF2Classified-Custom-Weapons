@@ -1724,7 +1724,7 @@
 		"30003" // test - test
 		{
 			"name"				"serider_test_test"
-			"item_name"			"serider_test_test"
+			"item_name"			"serider_test_gun"
 			"item_description"	"#TF_Weapon_Revolver_Desc"
 			"item_quality"		"normal"
 
@@ -1793,7 +1793,7 @@
 		"30004" // test - test
 		{
 			"name"				"serider_test_test2"
-			"item_name"			"serider_test_quickfix-like"
+			"item_name"			"serider_quickfix-like"
 			"item_type_name"	"#TF_Weapon_Umbrella"
 			"item_description"	"#TF_Weapon_Umbrella_Desc"
 			"item_quality"		"normal"
@@ -1836,7 +1836,7 @@
 		"30005" // test - test
 		{
 			"name"				"serider_test_test3"
-			"item_name"			"serider_test_concheror"
+			"item_name"			"serider_concheror"
 			"item_type_name"	"#TF_Weapon_Umbrella"
 			"item_description"	"#TF_Weapon_Umbrella_Desc"
 			"item_quality"		"normal"
@@ -1879,7 +1879,7 @@
 		"30006" // test - test
 		{
 			"name"				"serider_test_test4"
-			"item_name"			"serider_test_uber"
+			"item_name"			"serider_uber"
 			"item_type_name"	"#TF_Weapon_Umbrella"
 			"item_description"	"#TF_Weapon_Umbrella_Desc"
 			"item_quality"		"normal"

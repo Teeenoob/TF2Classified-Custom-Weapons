@@ -314,6 +314,172 @@
 			}
 		}
 
+		"weapon_demo_cannon"
+		{
+			"enabled"		"1"
+			"item_class"		"tf_weapon_cannon"
+			"craft_class"		"weapon"
+			"craft_material_type"		"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"		"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_gib_damage"	"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_logname"	"loose_cannon"
+			"item_iconname"	"loose_cannon_explosion"
+			"item_type_name"	"#TF_Weapon_GrenadeLauncher"
+			"item_name"		"#TF_Weapon_Cannon"
+			"item_description"		"#TF_Weapon_Cannon_desc"
+			"item_slot"		"primary"
+			"anim_slot"		"secondary"
+			"item_quality"		"unique"
+			"min_ilevel"		"10"
+			"max_ilevel"		"10"
+			"propername"		"1"
+			"attach_to_hands"	"1"
+			"inspect_panel_dist" "50"
+			"image_inventory"	"backpack/workshop/weapons/c_models/c_demo_cannon/c_demo_cannon"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/workshop/weapons/c_models/c_demo_cannon/c_demo_cannon.mdl"
+			"used_by_classes"
+			{
+				"demoman"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -10"
+			}
+			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+			"drop_sound"		"ui/item_heavy_gun_drop.wav"
+			"attributes"
+			{
+				"override projectile type"
+				{
+					"attribute_class"	"override_projectile_type"
+					"value"				"17"
+				}
+				"grenade launcher mortar mode"
+				{
+					"attribute_class"	"grenade_launcher_mortar_mode"
+					"value"				"1"
+				}
+				"grenade not explode on impact"
+				{
+					"attribute_class"	"grenade_not_explode_on_impact"
+					"value"				"1"
+				}
+				"Projectile speed increased"
+				{
+					"attribute_class"	"mult_projectile_speed"
+					"value"	"1.2"
+				}
+				"cannonball push back"
+				{
+					"attribute_class"	"cannonball_push_back"
+					"value"	"1"
+				}
+				"kill eater score type 2"
+				{
+					"attribute_class"	"kill_eater_score_type_2"
+					"value" 	"65"	
+				}
+			}
+			"visuals"
+			{
+				"animation_replacement"
+				{
+					"ACT_PRIMARY_VM_INSPECT_START"		"ACT_PRIMARY_ALT1_VM_INSPECT_START"
+					"ACT_PRIMARY_VM_INSPECT_IDLE"		"ACT_PRIMARY_ALT1_VM_INSPECT_IDLE"
+					"ACT_PRIMARY_VM_INSPECT_END"		"ACT_PRIMARY_ALT1_VM_INSPECT_END"
+				}
+			}
+		}
+
+		"weapon_ambassador"
+		{
+ 			"enabled"	"1"
+			"item_class"	"tf_weapon_revolver"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"		"1"
+				"can_headshot"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+			}
+			"base_item_name"	"The Ambassador"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Revolver"
+			"item_name"	"#TF_Unique_Achievement_Revolver"
+			"item_slot"	"secondary"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"item_logname"	"ambassador"
+			"item_iconname"	"ambassador"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"image_inventory"	"backpack/weapons/c_models/c_ambassador/parts/c_ambassador_opt"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/c_models/c_ambassador/c_ambassador.mdl"
+			"attach_to_hands" "1"
+			"inspect_panel_dist" "32"
+			"used_by_classes"
+			{
+				"spy"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"		"10 0 -6"
+				"crit_dmg_falloff"			"1"
+			}
+			"attributes"
+			{
+				"revolver use hit locations"
+				{
+					"attribute_class"	"set_weapon_mode"
+					"value"	"1"
+				}
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value" "0.85"
+				}
+				"fire rate penalty"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"	"1.2"
+				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"	"0"
+				}
+			}
+			"visuals"
+			{
+				"sound_single_shot" "Weapon_Ambassador.Single"
+				"sound_burst" "Weapon_Ambassador.SingleCrit"
+			}
+			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
+			"drop_sound"		"ui/item_light_gun_drop.wav"
+		}
 	}
 	"items"
 	{
@@ -658,6 +824,7 @@
 			{
 				"player_bodygroups"
 				{
+					"hat"	"1"
 					"hat"	"1"
 				}
 				"styles"
@@ -1276,8 +1443,8 @@
 			"name"				"fire_retardant"
 			"item_name"			"Fire Retardant"
 			"item_type_name"	"#TF_Wearable_Suit"
-			"item_description"	"Ok guys, bad news: we lost that last one."
-			"item_quality"		"unique"
+			"item_description"	"Let's settle this like gentlemen!"
+			"item_quality"		"vintage"
 
 			"item_class"	"tf_wearable"
 			"item_slot"		"secondary"
@@ -1299,6 +1466,295 @@
 			"image_inventory"		"backpack/player/items/spy/firesuit"
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"			"ui/item_light_gun_drop.wav"
+		}
+		"30003" // test - test
+		{
+			"name"				"serider_test_test"
+			"item_name"			"serider_test_test"
+			"item_description"	"#TF_Weapon_Revolver_Desc"
+			"item_quality"		"normal"
+
+			"item_class"	"tf_weapon_revolver"
+			"item_slot"		"secondary"
+			"used_by_classes"
+			{
+				"Spy"		"1"
+			}
+
+			"model_player"		"models/weapons/v_models/v_revolver_spy.mdl"
+			"model_world"		"models/weapons/w_models/w_revolver.mdl"
+			"attach_to_hands"		"2"
+			"static_attrs"
+			{
+				"min_viewmodel_offset"	"10 0 -6"
+			}
+			"attributes"
+			{
+				"override projectile type"
+				{
+					"attribute_class"	"override_projectile_type"
+					"value"				"4"
+				}
+				"blast dmg to self increased"
+				{
+					"attribute_class"	"blast_dmg_to_self"
+					"value"				"6"
+				}
+				"auto fires full clip"
+				{
+					"attribute_class"	"auto_fires_full_clip"
+					"value"	"1"
+				}
+				"clip size penalty HIDDEN"
+				{
+					"attribute_class"	"mult_clipsize"
+					"value" "0.15"
+				}
+				"hidden secondary max ammo penalty"
+				{
+					"attribute_class"	"mult_maxammo_secondary"
+					"value" "0.02"
+				}
+				"fuse bonus"
+				{
+					"attribute_class"	"fuse_mult"
+					"value" "0"
+				}
+				"apply self knockback"
+				{
+					"attribute_class"	"apply_self_knockback"
+					"value"				"200"
+				}
+				"Blast radius decreased"
+				{
+					"attribute_class"	"mult_explosion_radius"
+					"value"	"0"
+				}
+			}
+
+			"image_inventory"		"backpack/weapons/w_models/w_revolver"
+			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
+			"drop_sound"			"ui/item_light_gun_drop.wav"
+		}
+		"30004" // test - test
+		{
+			"name"				"serider_test_test2"
+			"item_name"			"serider_test_quickfix-like"
+			"item_type_name"	"#TF_Weapon_Umbrella"
+			"item_description"	"#TF_Weapon_Umbrella_Desc"
+			"item_quality"		"normal"
+
+			"item_class"	"tf2c_weapon_umbrella"
+			"item_slot"		"melee"
+			"used_by_classes"
+			{
+				"Civilian"	"1"
+			}
+
+			"model_player"		"models/weapons/v_models/v_umbrella_civilian.mdl"
+			"model_world"		"models/weapons/w_models/w_umbrella.mdl"
+			"anim_slot"			"melee"
+			"attach_to_hands"	"2"
+			"static_attrs"
+			{
+				"min_viewmodel_offset"	"10 0 -7"
+			}
+			"attributes"
+			{
+				"umbrella recharge rate increased"
+				{
+					"attribute_class"	"umbrella_recharge_rate"
+					"value"				"0.9"
+				}
+				"civ boost cond override"
+				{
+					"attribute_class"	"add_civ_boost_override"
+					"value"				"TF_COND_HALLOWEEN_QUICK_HEAL 1"
+				}
+			}
+			"item_logname"	"umbrella"
+			"item_iconname"	"umbrella"
+			
+			"image_inventory"		"backpack/weapons/w_models/w_umbrella"
+			"mouse_pressed_sound"	"ui/item_umbrella_pickup.wav"
+			"drop_sound"			"ui/item_hat_drop.wav"
+		}
+		"30005" // test - test
+		{
+			"name"				"serider_test_test3"
+			"item_name"			"serider_test_concheror"
+			"item_type_name"	"#TF_Weapon_Umbrella"
+			"item_description"	"#TF_Weapon_Umbrella_Desc"
+			"item_quality"		"normal"
+
+			"item_class"	"tf2c_weapon_umbrella"
+			"item_slot"		"melee"
+			"used_by_classes"
+			{
+				"Civilian"	"1"
+			}
+
+			"model_player"		"models/weapons/v_models/v_umbrella_civilian.mdl"
+			"model_world"		"models/weapons/w_models/w_umbrella.mdl"
+			"anim_slot"			"melee"
+			"attach_to_hands"	"2"
+			"static_attrs"
+			{
+				"min_viewmodel_offset"	"10 0 -7"
+			}
+			"attributes"
+			{
+				"umbrella recharge rate increased"
+				{
+					"attribute_class"	"umbrella_recharge_rate"
+					"value"				"0.9"
+				}
+				"civ boost cond override"
+				{
+					"attribute_class"	"add_civ_boost_override"
+					"value"				"TF_COND_REGENONDAMAGEBUFF 1"
+				}
+			}
+			"item_logname"	"umbrella"
+			"item_iconname"	"umbrella"
+			
+			"image_inventory"		"backpack/weapons/w_models/w_umbrella"
+			"mouse_pressed_sound"	"ui/item_umbrella_pickup.wav"
+			"drop_sound"			"ui/item_hat_drop.wav"
+		}
+		"30006" // test - test
+		{
+			"name"				"serider_test_test4"
+			"item_name"			"serider_test_uber"
+			"item_type_name"	"#TF_Weapon_Umbrella"
+			"item_description"	"#TF_Weapon_Umbrella_Desc"
+			"item_quality"		"normal"
+
+			"item_class"	"tf2c_weapon_umbrella"
+			"item_slot"		"melee"
+			"used_by_classes"
+			{
+				"Civilian"	"1"
+			}
+
+			"model_player"		"models/weapons/v_models/v_umbrella_civilian.mdl"
+			"model_world"		"models/weapons/w_models/w_umbrella.mdl"
+			"anim_slot"			"melee"
+			"attach_to_hands"	"2"
+			"static_attrs"
+			{
+				"min_viewmodel_offset"	"10 0 -7"
+			}
+			"attributes"
+			{
+				"umbrella recharge rate increased"
+				{
+					"attribute_class"	"umbrella_recharge_rate"
+					"value"				"0.9"
+				}
+				"civ boost cond override"
+				{
+					"attribute_class"	"add_civ_boost_override"
+					"value"				"TF_COND_INVULNERABLE 1"
+				}
+			}
+			"item_logname"	"umbrella"
+			"item_iconname"	"umbrella"
+			
+			"image_inventory"		"backpack/weapons/w_models/w_umbrella"
+			"mouse_pressed_sound"	"ui/item_umbrella_pickup.wav"
+			"drop_sound"			"ui/item_hat_drop.wav"
+		}
+		"1179"
+		{
+			"name"	"The Thermal Thruster"
+			"item_class"			"tf_weapon_rocketpack"
+			"item_logname"	"rocketpack"
+			"item_iconname"	"rocketpack"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_RocketPack"
+			"item_name"			"#TF_ThermalThruster"
+			"item_description"	"Death from above! Fires up to 2 short-duration blasts that launches the Pyro in the direction they are aiming."
+			"item_slot"			"secondary"
+			"equip_region"		"back"
+			"anim_slot"			"ITEM4"
+			"image_inventory"	"backpack/weapons/c_models/c_rocketpack/c_rocketpack"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"inspect_panel_dist" 				"60"			
+			"model_player"	"models/weapons/c_models/c_rocketpack/c_rocketpack.mdl" 
+			"attach_to_hands"	"1"
+			"attach_to_hands_vm_only"	"1"
+			"extra_wearable" "models/weapons/c_models/c_rocketpack/c_rocketpack.mdl" 
+			"item_quality"	"unique"
+			"propername"	"1"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"backpack"		"1"
+				}
+			}
+			"used_by_classes"
+			{
+				"pyro"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -9"	
+				"damage force increase hidden"	"1.5"
+				"taunt attack name"		"TAUNTATK_PYRO_GASBLAST"
+				"taunt attack time"		"4.7"
+				"item_meter_charge_type"						"1"
+				"item_meter_charge_rate"			"40"
+				"holster_anim_time"		"0.8"
+				"falling_impact_radius_pushback"	"1"
+				"thermal_thruster"					"1"
+			}
+			"attributes"
+			{
+				"thermal_thruster_air_launch"
+				{
+					"attribute_class"	"thermal_thruster_air_launch"
+					"value"				"1"
+				}
+				"boots falling stomp"
+				{
+					"attribute_class"	"boots_falling_stomp"
+					"value"				"1"
+				}
+				"gravity mod active increased"
+				{
+					"attribute_class"	"gravity_mod_active"
+					"value"				"1.2"
+                }
+				"dmg taken increased"
+				{
+					"attribute_class"	"mult_dmgtaken_active"
+					"value"				"1.15"
+                }
+			}
+			"taunt"
+			{
+				"custom_taunt_scene_per_class"
+				{
+					"pyro"	"scenes/player/pyro/low/taunt_gasblast.vcd"
+				}
+				"custom_taunt_prop_per_class"
+				{
+					"pyro"	"models/player/items/taunts/matchbox/matchbox.mdl"
+				}
+			}
+			"visuals_red"
+			{
+				"skin" "0"
+			}
+			"visuals_blu"
+			{
+				"skin" "1"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
 	}
 }

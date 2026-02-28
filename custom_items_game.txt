@@ -753,6 +753,7 @@
 			}
 			"visuals"
 			{
+				"skin" "1"
 				"animation_replacement"
 				{
 					"ACT_MP_ATTACK_STAND_MELEE_ALLCLASS"	"ACT_MP_ATTACK_STAND_MELEE"
@@ -899,7 +900,7 @@
 			"mouse_pressed_sound"	"ui/item_leather_pickup.wav"
 			"drop_sound"		"ui/item_pack_drop.wav"
 		}
-		"933"
+		"933" // The Ap-Sap
 		{
 			"name"	"The Ap-Sap"
 			"prefab"	"valve"
@@ -944,7 +945,7 @@
 				}
 			}
 		}
-		"810"
+		"810" //The Red-Tape Recorder
 		{
 			"name"	"The Red-Tape Recorder"
 			"prefab"		"weapon_red_tape_recorder"
@@ -1322,6 +1323,89 @@
 					"image"	"scripts/items/custom_texture_blend_layers/paper_overlay.png"
 				}
 			}
+		}
+		"589" // The Eureka Effect - ! not currently used !
+		{
+			"name"	"The Eureka Effect"
+			"item_class"	"tf_weapon_wrench"
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_destroy_sappers"		"1"
+				"can_be_festivized"		"1"
+			}
+			//"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Wrench"
+			"item_name"	"#TF_Wrenchmotron"
+			"item_description"	"#TF_Wrenchmotron_Desc"
+			"item_slot"	"melee"
+			"item_quality"	"unique"
+			"item_logname"	"eureka_effect"
+			"item_iconname"	"eureka_effect"
+			"propername"	"1"
+			"image_inventory"	"backpack/workshop/weapons/c_models/c_drg_wrenchmotron/c_drg_wrenchmotron"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"inspect_panel_dist" 			"50"
+			"model_player"	"models/workshop/weapons/c_models/c_drg_wrenchmotron/c_drg_wrenchmotron.mdl"
+			"attach_to_hands" "1"
+			//"used_by_classes"
+			//{
+			//	"engineer"	"1"
+			//}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 -2 -9"				
+			}
+			"attributes"
+			{
+				"alt fire teleport to spawn"
+				{
+					"attribute_class"	"alt_fire_teleport_to_spawn"
+					"value" "1"
+				}
+				"special taunt"
+				{
+					"attribute_class"	"special_taunt"
+					"value" "1"
+				}
+				"Construction rate decreased"
+				{
+					"attribute_class"	"mult_construction_value"
+					"value" "0.50"
+				}
+				"metal_pickup_decreased"
+				{
+					"attribute_class"	"mult_metal_pickup"
+					"value" "0.8"
+				}
+				"mod teleporter cost"
+				{
+					"attribute_class"	"mod_teleporter_cost"
+					"value" "0.5"
+				}
+			}
+			"visuals"
+			{
+				"attached_particlesystems"
+				{
+					"0"
+					{
+						"system"	"drg_wrenchmotron_idle"
+						"attachment" "electrode_0"
+					}
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_drg_wrenchmotron/c_drg_wrenchmotron_festivizer.mdl"
+					}
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
 		"739" // The Lollichop - reskin
 		{
@@ -1918,6 +2002,213 @@
 			"image_inventory"		"backpack/weapons/w_models/w_umbrella"
 			"mouse_pressed_sound"	"ui/item_umbrella_pickup.wav"
 			"drop_sound"			"ui/item_hat_drop.wav"
+		}
+		"30007" // seride_double_dealer - ! playtest part 1 !
+		{
+			"name"	"seride_double_dealer"
+			"item_class"	"tf_weapon_wrench"
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_destroy_sappers"		"1"
+				"can_be_festivized"		"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Wrench"
+			"item_name"	"Double-Dealer"
+			"item_description"	"For the Engineer who forgot his toolbox at spawn"
+			"item_slot"	"melee"
+			"item_quality"	"unique"
+			"item_logname"	"eureka_effect"
+			"item_iconname"	"eureka_effect"
+			"propername"	"1"
+			"image_inventory"	"backpack/workshop/weapons/c_models/c_drg_wrenchmotron/c_drg_wrenchmotron"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"inspect_panel_dist" 			"50"
+			"model_player"	"models/workshop/weapons/c_models/c_drg_wrenchmotron/c_drg_wrenchmotron.mdl"
+			"attach_to_hands" "1"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 -2 -9"
+			}
+			"attributes"
+			{
+                "bidirectional teleport"
+                {
+                    "attribute_class"    "bidirectional_teleport"
+                    "value"                "1"
+                }
+				"mod teleporter cost"
+                {
+                    "attribute_class"    "mod_teleporter_cost"
+                    "value"                "0.75"
+                }
+				"engineer teleporter build rate multiplier"
+                {
+                    "attribute_class"    "teleporter_build_rate_multiplier"
+                    "value"                "1.5"
+                }
+                "cannot pick up buildings"
+                {
+                    "attribute_class"    "cannot_pick_up_buildings"
+                    "value"                "1"
+                }
+                "wrench explain"        "1"
+			}
+			"visuals"
+			{
+				"attached_particlesystems"
+				{
+					"0"
+					{
+						"system"	"drg_wrenchmotron_idle"
+						"attachment" "electrode_0"
+					}
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_drg_wrenchmotron/c_drg_wrenchmotron_festivizer.mdl"
+					}
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+		}
+		"30008" // seride_nearing_danger - ! playtest part 1 !
+		{
+			"name"	"seride_nearing_danger"
+			"item_class"	"tf_weapon_wrench"
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_destroy_sappers"		"1"
+				"can_be_festivized"		"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Wrench"
+			"item_name"	"Nearing Danger"
+			"item_description"	"Show these cowards what a real Texan fights like! We don't need a whole target shooter range for this one!"
+			"item_slot"	"melee"
+			"item_quality"	"unique"
+			"item_logname"	"eureka_effect"
+			"item_iconname"	"eureka_effect"
+			"propername"	"1"
+			"image_inventory"	"backpack/workshop/weapons/c_models/c_drg_wrenchmotron/c_drg_wrenchmotron"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"inspect_panel_dist" 			"50"
+			"model_player"	"models/workshop/weapons/c_models/c_drg_wrenchmotron/c_drg_wrenchmotron.mdl"
+			"attach_to_hands" "1"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 -2 -9"
+			}
+			"attributes"
+			{
+				"engy sentry damage bonus"
+                {
+                    "attribute_class"    "mult_engy_sentry_damage"
+                    "value"                "1.35"
+                }
+                "engy sentry radius increased"
+                {
+                    "attribute_class"    "mult_sentry_range"
+                    "value"                "0.5"
+                }
+                "wrench explain"        "1"
+			}
+			"visuals"
+			{
+				"attached_particlesystems"
+				{
+					"0"
+					{
+						"system"	"drg_wrenchmotron_idle"
+						"attachment" "electrode_0"
+					}
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_drg_wrenchmotron/c_drg_wrenchmotron_festivizer.mdl"
+					}
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+		}
+		"30009" // placeholder for next one - ! playtest part 2? !
+		{
+			"name"	"seride_placeholder1"
+			"item_class"	"tf_weapon_wrench"
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_destroy_sappers"		"1"
+				"can_be_festivized"		"1"
+			}
+			//"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Wrench"
+			"item_name"	"seride_placeholder1"
+			"item_description"	"placeholder!"
+			"item_slot"	"melee"
+			"item_quality"	"unique"
+			"item_logname"	"eureka_effect"
+			"item_iconname"	"eureka_effect"
+			"propername"	"1"
+			"image_inventory"	"backpack/workshop/weapons/c_models/c_drg_wrenchmotron/c_drg_wrenchmotron"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"inspect_panel_dist" 			"50"
+			"model_player"	"models/workshop/weapons/c_models/c_drg_wrenchmotron/c_drg_wrenchmotron.mdl"
+			"attach_to_hands" "1"
+			//"used_by_classes"
+			//{
+			//	"engineer"	"1"
+			//}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 -2 -9"
+			}
+			"attributes"
+			{
+                "wrench explain"        "1"
+			}
+			"visuals"
+			{
+				"attached_particlesystems"
+				{
+					"0"
+					{
+						"system"	"drg_wrenchmotron_idle"
+						"attachment" "electrode_0"
+					}
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_drg_wrenchmotron/c_drg_wrenchmotron_festivizer.mdl"
+					}
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
 	}
 }

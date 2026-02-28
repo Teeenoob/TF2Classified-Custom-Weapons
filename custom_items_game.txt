@@ -535,7 +535,7 @@
 	}
 	"items"
 	{
-		"43"
+		"43" // The Killing Gloves of Boxing
 		{
 			"name"	"The Killing Gloves of Boxing"
 			"prefab"	"valve"
@@ -610,7 +610,7 @@
 			"mouse_pressed_sound" 	"ui/item_boxing_gloves_pickup.wav"
 			"drop_sound" 		"ui/item_boxing_gloves_drop.wav"
 		}
-		"58"
+		"58" // Jarate
 		{
 			"name"	"Jarate"
 			"enabled"	"1"
@@ -671,7 +671,7 @@
 			"mouse_pressed_sound"	"ui/item_bottle_pickup.wav"
 			"drop_sound"		"ui/item_bottle_drop.wav"
 		}
-		"239"
+		"239" // Gloves of Running Urgently
 		{
 			"name"	"Gloves of Running Urgently"
 			"prefab"	"valve weapon_gru"
@@ -1628,7 +1628,7 @@
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
-		"1179"
+		"1179" // The Thermal Thruster
 		{
 			"name"	"The Thermal Thruster"
 			"item_class"			"tf_weapon_rocketpack"
@@ -1669,7 +1669,7 @@
 				"taunt attack name"		"TAUNTATK_PYRO_GASBLAST"
 				"taunt attack time"		"4.7"
 				"item_meter_charge_type"						"1"
-				"item_meter_charge_rate"			"40"
+				"item_meter_charge_rate"			"30"
 				"holster_anim_time"		"0.8"
 				"falling_impact_radius_pushback"	"1"
 				"thermal_thruster"					"1"
@@ -1686,11 +1686,6 @@
 					"attribute_class"	"boots_falling_stomp"
 					"value"				"1"
 				}
-				"gravity mod active increased"
-				{
-					"attribute_class"	"gravity_mod_active"
-					"value"				"1.2"
-                }
 				"dmg taken increased"
 				{
 					"attribute_class"	"mult_dmgtaken_active"
@@ -1985,15 +1980,10 @@
 			}
 			"attributes"
 			{
-				"umbrella recharge rate increased"
-				{
-					"attribute_class"	"umbrella_recharge_rate"
-					"value"				"0.9"
-				}
 				"civ boost cond override"
 				{
 					"attribute_class"	"add_civ_boost_override"
-					"value"				"TF_COND_INVULNERABLE 1"
+					"value"				"TF_COND_INVULNERABLE 0.75"
 				}
 			}
 			"item_logname"	"umbrella"
@@ -2047,7 +2037,7 @@
 				"mod teleporter cost"
                 {
                     "attribute_class"    "mod_teleporter_cost"
-                    "value"                "0.75"
+                    "value"                "0.5"
                 }
 				"engineer teleporter build rate multiplier"
                 {

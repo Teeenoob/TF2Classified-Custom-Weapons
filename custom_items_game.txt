@@ -645,7 +645,6 @@
 			"inspect_panel_dist" 			"25"
 			"attach_to_hands" "1"
 			"model_player"		"models/workshop/weapons/c_models/c_ava_roseknife/c_ava_roseknife.mdl"
-			"extra_wearable"	"models/player/items/spy/spy_beret.mdl"
 			"used_by_classes"
 			{
 				"spy"	"1"
@@ -719,7 +718,6 @@
 			"image_inventory_size_h"		"82"
 			"inspect_panel_dist" 				"30"			
 			"model_player"	"models/workshop/weapons/c_models/c_scotland_shard/c_scotland_shard.mdl"
-			"extra_wearable"	"models/workshop/player/items/demo/hwn2024_badlands_bandido_style2/hwn2024_badlands_bandido_style2.mdl"
 			"attach_to_hands" "1"
 			"used_by_classes"
 			{
@@ -1293,9 +1291,10 @@
 					"value" "0.10"
 				}
 			}
-			"act_as_wearable"	"1"
-			"anim_slot"			"FORCE_NOT_USED"
-			"equip_region"		"spy_coat"
+			"act_as_wearable"	    "1"
+			"anim_slot"			    "FORCE_NOT_USED"
+			"equip_region"		    "spy_coat"
+            "extra_wearable"	    "models/player/items/spy/spy_flame_suit.mdl"
 			"image_inventory"		"backpack/player/items/spy/firesuit"
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"			"ui/item_light_gun_drop.wav"

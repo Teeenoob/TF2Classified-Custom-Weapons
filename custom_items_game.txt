@@ -1531,7 +1531,7 @@
 			"name"						"serider_lilith"
 			"item_class"				"tf_weapon_minigun"
 			"item_slot"					"primary"
-			"show_in_armory"			"1"
+			"show_in_armory"			"0"
 			
 			"item_quality"				"unique"
 			"item_name"					"Lilith"
